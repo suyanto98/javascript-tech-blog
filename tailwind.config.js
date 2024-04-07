@@ -12,6 +12,9 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      clipPath: {
+        polygon: 'polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%)',
+      },
     },
   },
   plugins: [],
